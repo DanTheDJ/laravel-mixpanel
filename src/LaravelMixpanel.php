@@ -18,6 +18,7 @@ class LaravelMixpanel extends Mixpanel
             'consumer' => config('services.mixpanel.consumer', 'socket'),
             'connect_timeout' => config('services.mixpanel.connect-timeout', 2),
             'timeout' => config('services.mixpanel.timeout', 2),
+            'max_queue_size' => config('services.mixpanel.max_queue_size', 10),
         ];
         $this->request = $request;
 

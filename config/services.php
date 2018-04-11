@@ -7,5 +7,6 @@ return [
         'consumer' => 'socket',
         'connect-timeout' => 2,
         'timeout' => 2,
+        'max_queue_size' => 10
     ]
 ];
