@@ -1,11 +1,11 @@
 {
-    "name": "genealabs/laravel-mixpanel",
+    "name": "danthedj/laravel-mixpanel",
     "description": "MixPanel wrapper for Laravel 5.",
     "license": "MIT",
     "authors": [
         {
-            "name": "Mike Bronner",
-            "email": "hello@genealabs.com"
+            "name": "Dan Coleman",
+            "email": "dan@dancoleman.uk"
         }
     ],
     "autoload": {
